@@ -12,7 +12,11 @@ Move to the newly created directory.
 
     cd ~/.config/ohmyposh/
 
-find and edit <.bashrc>
+Copy the .toml file to new location
+
+    cp /<location>/config.toml ~/.config/ohmyposh/config.toml
+
+Find and edit <.bashrc>
 
     eval "$(oh-my-posh init bash --config ~/.config/ohmyposh/config.toml)"
 
